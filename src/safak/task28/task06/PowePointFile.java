@@ -1,0 +1,26 @@
+package safak.task28.task06;
+
+import task28.task06.ReadFile;
+
+public class PowePointFile implements ReadFile {
+
+    @Override
+    public String open() {
+        return "opening.ppt";
+    }
+
+    @Override
+    public String read() {
+        return "reading.ppt";
+    }
+
+    @Override
+    public String save() {
+        return "saving.ppt";
+    }
+
+    @Override
+    public String close() {
+        return "closing.ppt";
+    }
+}
